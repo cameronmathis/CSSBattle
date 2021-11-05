@@ -1,0 +1,87 @@
+<body>
+  <div class="left">
+    <div class="circle outer">
+      <div class="circle inner"></div>
+    </div>
+    <div class="circle endPiece"></div>
+  </div>
+  <div class="middle">
+    <div class="circle outer">
+      <div class="circle inner"></div>
+    </div>
+  </div>
+  <div class="right">
+    <div class="circle outer">
+      <div class="circle inner"></div>
+    </div>
+    <div class="circle endPiece"></div>
+  </div>
+</body>
+<style>
+  body {
+    background-color: #f5d6b4;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .left,
+  .right {
+    position: relative;
+    top: 20px;
+    transform: scaleY(-1);
+  }
+
+  .left {
+    left: 20px;
+  }
+
+  .middle {
+    position: relative;
+    bottom: 25px;
+  }
+
+  .right {
+    right: 20px;
+  }
+
+  .circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px 100px 0 0;
+  }
+
+  .outer {
+    background-color: #d86f45;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100px;
+  }
+
+  .inner {
+    background-color: #f5d6b4;
+    height: 30px;
+    width: 60px;
+    position: relative;
+    top: 10px;
+  }
+
+  .endPiece {
+    background-color: #d86f45;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10px;
+    width: 20px;
+    transform: scaleY(-1);
+  }
+
+  .right .endPiece {
+    position: relative;
+    left: 80px;
+  }
+</style>
