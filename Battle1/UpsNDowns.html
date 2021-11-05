@@ -1,0 +1,62 @@
+<body>
+  <div class="rectangle">
+    <div class="shape left">
+      <div class="circle"></div>
+      <div class="square"></div>
+    </div>
+    <div class="shape middle">
+      <div class="circle"></div>
+      <div class="square"></div>
+    </div>
+    <div class="shape right">
+      <div class="circle"></div>
+      <div class="square"></div>
+    </div>
+  </div>
+</body>
+<style>
+  body {
+    background-color: #62306d;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .rectangle {
+    height: 200px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .shape {
+    justify-content: center;
+  }
+
+  .circle {
+    border-radius: 50%;
+    background-color: #f7ec7d;
+    height: 100px;
+    width: 100px;
+    align-items: center;
+  }
+
+  .square {
+    background-color: #f7ec7d;
+    height: 50px;
+    width: 100px;
+    margin-top: -50px;
+  }
+
+  .left,
+  .right {
+    transform: scaleY(-1);
+    margin-top: 100px;
+  }
+
+  .middle {
+    margin-top: -100px;
+  }
+</style>

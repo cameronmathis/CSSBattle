@@ -1,0 +1,93 @@
+<body>
+  <div class="arm left">
+    <div class="outerArm">
+      <div class="innerArm"></div>
+    </div>
+    <div class="armRec"></div>
+  </div>
+  <div class="circle outerCircle">
+    <div class="circle middleCircle">
+      <div class="circle innerCircle"></div>
+    </div>
+  </div>
+  <div class="arm right">
+    <div class="outerArm">
+      <div class="innerArm"></div>
+    </div>
+    <div class="armRec"></div>
+  </div>
+</body>
+<style>
+  body {
+    background-color: #191210;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  }
+
+  .outerCircle {
+    background-color: #eca03d;
+    height: 140px;
+    width: 140px;
+    z-index: 1;
+  }
+
+  .middleCircle {
+    background-color: #191210;
+    height: 100px;
+    width: 100px;
+  }
+
+  .innerCircle {
+    background-color: #84271c;
+    height: 50px;
+    width: 50px;
+  }
+
+  .outerArm {
+    background-color: #eca03d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+  }
+
+  .armRec {
+    background-color: #191210;
+    height: 50px;
+    width: 100px;
+    position: relative;
+    bottom: 100px;
+  }
+
+  .innerArm {
+    background-color: #191210;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+  }
+
+  .left {
+    position: relative;
+    left: 20px;
+    top: 25px;
+  }
+
+  .right {
+    position: relative;
+    right: 20px;
+    bottom: 25px;
+    transform: scaleY(-1);
+  }
+</style>

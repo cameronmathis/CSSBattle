@@ -1,0 +1,118 @@
+<body>
+  <div class="fork">
+    <div class="spikes">
+      <div class="spike one">
+        <div class="circle"></div>
+        <div class="rectangle"></div>
+      </div>
+      <div class="inverseSpike one">
+        <div class="circle"></div>
+        <div class="rectangle"></div>
+      </div>
+      <div class="spike two">
+        <div class="circle"></div>
+        <div class="rectangle"></div>
+      </div>
+      <div class="inverseSpike two">
+        <div class="circle"></div>
+        <div class="rectangle"></div>
+      </div>
+      <div class="spike three">
+        <div class="circle"></div>
+        <div class="rectangle"></div>
+      </div>
+      <div class="inverseSpike three">
+        <div class="circle"></div>
+        <div class="rectangle"></div>
+      </div>
+      <div class="spike four">
+        <div class="circle"></div>
+        <div class="rectangle"></div>
+      </div>
+    </div>
+    <div class="semiCircle"></div>
+    <div class="handle"></div>
+  </div>
+</body>
+<style>
+  body {
+    background-color: #6592cf;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .fork {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 10px;
+  }
+
+  .fork * {
+    position: relative;
+  }
+
+  .spikes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    top: 10px;
+  }
+
+  .spike * {
+    background-color: #060f55;
+    top: 50px;
+  }
+
+  .spike > .circle {
+    height: 20px;
+    width: 20px;
+    border-radius: 50% 50% 0 0;
+  }
+
+  .spike > .rectangle {
+    height: 100px;
+    width: 20px;
+  }
+
+  .inverseSpike {
+    top: 40px;
+    transform: scaleY(-1);
+    z-index: 1;
+  }
+
+  .inverseSpike * {
+    background-color: #6592cf;
+  }
+
+  .inverseSpike > .rectangle {
+    height: 100px;
+    width: 20px;
+    bottom: 10px;
+  }
+
+  .inverseSpike > .circle {
+    height: 20px;
+    width: 20px;
+    border-radius: 50% 50% 0 0;
+  }
+
+  .semiCircle {
+    background-color: #060f55;
+    height: 140px;
+    width: 140px;
+    border-radius: 0 0 50% 50%;
+  }
+
+  .handle {
+    background-color: #060f55;
+    height: 100px;
+    width: 20px;
+    bottom: 10px;
+  }
+</style>

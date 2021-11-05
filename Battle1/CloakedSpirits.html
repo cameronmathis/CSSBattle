@@ -1,0 +1,84 @@
+<body>
+  <div class="leftShape">
+    <div class="circle outer">
+      <div class="circle inner"></div>
+    </div>
+    <div class="rectangle"></div>
+  </div>
+  <div class="centerShape">
+    <div class="circle outer">
+      <div class="circle inner"></div>
+    </div>
+    <div class="rectangle"></div>
+  </div>
+  <div class="rightShape">
+    <div class="circle outer">
+      <div class="circle inner"></div>
+    </div>
+    <div class="rectangle"></div>
+  </div>
+</body>
+<style>
+  body {
+    background-color: #62306d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+
+  .circle {
+    border-radius: 50%;
+  }
+
+  .outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+  }
+
+  .inner {
+    width: 60px;
+    height: 60px;
+  }
+
+  .rectangle {
+    background-color: #f7ec7d;
+    width: 100px;
+    height: 300px;
+    position: relative;
+    bottom: 50px;
+    z-index: -1;
+  }
+
+  .leftShape,
+  .rightShape {
+    position: relative;
+    top: 150px;
+  }
+
+  .leftShape .outer,
+  .rightShape .outer {
+    background-color: #aa445f;
+  }
+
+  .leftShape .inner,
+  .rightShape .inner {
+    background-color: #e38f66;
+  }
+
+  .centerShape {
+    position: relative;
+    top: 50px;
+  }
+
+  .centerShape .outer {
+    background-color: #e38f66;
+  }
+
+  .centerShape .inner {
+    background-color: #aa445f;
+  }
+</style>
