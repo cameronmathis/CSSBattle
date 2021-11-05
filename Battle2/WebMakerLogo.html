@@ -1,0 +1,78 @@
+<div>
+  <div class="container">
+    <div class="shape left">
+      <div class="triangle front"></div>
+      <div class="triangle back"></div>
+    </div>
+    <div class="shape right">
+      <div class="triangle front"></div>
+      <div class="triangle back"></div>
+    </div>
+  </div>
+</div>
+<style>
+  body {
+    background: #f2f2b6;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 130px;
+    width: 280px;
+  }
+
+  .triangle {
+    width: 0;
+    height: 0;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+  }
+
+  .front {
+    position: relative;
+    top: 65px;
+    z-index: 1;
+  }
+
+  .back {
+    position: relative;
+    bottom: 65px;
+    left: 20px;
+  }
+
+  .left,
+  .right {
+    position: relative;
+  }
+
+  .left {
+    left: 10px;
+    transform: scaleY(-1);
+  }
+
+  .left .front {
+    border-bottom: 130px solid #ff6d00;
+  }
+
+  .left .back {
+    border-bottom: 130px solid #fd4602;
+  }
+
+  .right {
+    right: 30px;
+  }
+
+  .right .front {
+    border-bottom: 130px solid #fd4602;
+  }
+
+  .right .back {
+    border-bottom: 130px solid #ff6d00;
+  }
+</style>

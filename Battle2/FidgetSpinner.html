@@ -1,0 +1,89 @@
+<div class="container">
+  <div class="circle floating" id="top">
+    <div class="circle inner"></div>
+  </div>
+  <div class="circle connected" id="left">
+    <div class="circle inner"></div>
+  </div>
+  <div class="rectangle"></div>
+  <div class="circle connected" id="right">
+    <div class="circle inner"></div>
+  </div>
+  <div class="circle floating" id="bottom">
+    <div class="circle inner"></div>
+  </div>
+</div>
+<style>
+  body {
+    background: #09042a;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container {
+    position: relative;
+    bottom: 50px;
+  }
+
+  .circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 50%;
+  }
+
+  .floating {
+    background: #09042a;
+    height: 80px;
+    width: 80px;
+    position: relative;
+  }
+
+  .floating > .inner {
+    background: #f5bb9c;
+    height: 60px;
+    width: 60px;
+  }
+
+  #top {
+    top: 107px;
+  }
+
+  .connected {
+    background: #e78481;
+    height: 80px;
+    width: 80px;
+    position: relative;
+    z-index: -1;
+  }
+
+  .connected > .inner {
+    background: #09042a;
+    height: 60px;
+    width: 60px;
+  }
+
+  #left {
+    top: 80px;
+    right: 60px;
+  }
+
+  .rectangle {
+    background: #e78481;
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+  }
+
+  #right {
+    bottom: 80px;
+    left: 60px;
+  }
+
+  #bottom {
+    bottom: 107px;
+  }
+</style>

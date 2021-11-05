@@ -1,0 +1,43 @@
+<div class="container">
+  <div class="circle left"></div>
+  <div class="circle right">
+    <div class="circle inner"></div>
+  </div>
+</div>
+<style>
+  body {
+    background: #09042a;
+    margin: 0;
+  }
+
+  .container {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .circle {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .left {
+    background: #7b3f61;
+    left: 25px;
+  }
+
+  .right {
+    background: #e78481;
+    right: 25px;
+  }
+
+  .inner {
+    background: #09042a;
+    right: 100px;
+  }
+</style>
