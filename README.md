@@ -13,8 +13,8 @@ This is a repository to manage my [CSS Battle](https://cssbattle.dev/) solutions
 + [#2 - Carrom](https://github.com/cameronmathis/CSSBattle/blob/main/Battle1/Carrom.html)
 </br>[<img alt="" src=https://cssbattle.dev/targets/2.png />](https://github.com/cameronmathis/CSSBattle/blob/main/Battle1/Carrom.html)
 
-+ [#3 - Push Button](https://github.com/cameronmathis/CSSBattle/blob/main/Battle1/PushBbutton.html)
-</br>[<img alt="" src=https://cssbattle.dev/targets/3.png />](https://github.com/cameronmathis/CSSBattle/blob/main/Battle1/PushBbutton.html)
++ [#3 - Push Button](https://github.com/cameronmathis/CSSBattle/blob/main/Battle1/PushButton.html)
+</br>[<img alt="" src=https://cssbattle.dev/targets/3.png />](https://github.com/cameronmathis/CSSBattle/blob/main/Battle1/PushButton.html)
 
 + [#4 - Ups n Downs](https://github.com/cameronmathis/CSSBattle/blob/main/Battle1/UpsNDowns.html)
 </br>[<img alt="" src=https://cssbattle.dev/targets/4.png />](https://github.com/cameronmathis/CSSBattle/blob/main/Battle1/UpsNDowns.html)
