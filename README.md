@@ -4,6 +4,8 @@ This is a repository to manage my [CSS Battle](https://cssbattle.dev/) solutions
 ## Index
 - [Battle 1](#battle-1)
 - [Battle 2](#battle-2)
+- [Battle 3](#battle-3)
+- [Battle 4](#battle-4)
 
 ### Battle 1
 
@@ -43,7 +45,7 @@ This is a repository to manage my [CSS Battle](https://cssbattle.dev/) solutions
 + [#12 - Wiggly Moustache](https://github.com/cameronmathis/CSSBattle/blob/main/Battle1/WigglyMoustache.html)
 </br>[<img alt="" src=https://cssbattle.dev/targets/12.png />](https://github.com/cameronmathis/CSSBattle/blob/main/Battle1/WigglyMoustache.html)
 
-### Battle #2
+### Battle 2
 
 + [#13 - Totally Triangle](https://github.com/cameronmathis/CSSBattle/blob/main/Battle2/TotallyTriangle.html)
 </br>[<img alt="" src=https://cssbattle.dev/targets/13.png />](https://github.com/cameronmathis/CSSBattle/blob/main/Battle2/TotallyTriangle.html)
@@ -62,3 +64,16 @@ This is a repository to manage my [CSS Battle](https://cssbattle.dev/) solutions
 
 + [#18 - Matrix](https://github.com/cameronmathis/CSSBattle/blob/main/Battle2/Matrix.html)
 </br>[<img alt="" src=https://cssbattle.dev/targets/18.png />](https://github.com/cameronmathis/CSSBattle/blob/main/Battle2/Matrix.html)
+
+### Battle 3
+
++ [#19 - Cube](https://github.com/cameronmathis/CSSBattle/blob/main/Battle3/Cube.html)
+</br>[<img alt="" src=https://cssbattle.dev/targets/19.png />](https://github.com/cameronmathis/CSSBattle/blob/main/Battle3/Cube.html)
+
++ [#20 - Ticket](https://github.com/cameronmathis/CSSBattle/blob/main/Battle3/Ticket.html)
+</br>[<img alt="" src=https://cssbattle.dev/targets/20.png />](https://github.com/cameronmathis/CSSBattle/blob/main/Battle3/Ticket.html)
+
+### Battle 4
+
++ [#21 - SitePoint Logo](https://github.com/cameronmathis/CSSBattle/blob/main/Battle4/SitePointLogo.html)
+</br>[<img alt="" src=https://cssbattle.dev/targets/21.png />](https://github.com/cameronmathis/CSSBattle/blob/main/Battle4/SitePointLogo.html)
