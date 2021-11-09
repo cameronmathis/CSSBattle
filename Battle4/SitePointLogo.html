@@ -1,0 +1,68 @@
+<div class="container">
+  <div class="shape orange">
+    <div class="rectangle short"></div>
+    <div class="rectangle long"></div>
+  </div>
+  <div class="shape blue">
+    <div class="rectangle short"></div>
+    <div class="rectangle long"></div>
+  </div>
+</div>
+<style>
+  body {
+    background: #222;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 180px;
+  }
+  
+  .shape {
+    position: relative;
+  }
+  
+  .shape > * {
+    position: relative;
+  }
+  
+  .blue {
+    transform: rotate(180deg);
+    bottom: 1px;
+    right: 1px;
+  }
+  
+  .orange > * {
+    background: #F2994A;
+  }
+  
+  .blue > * {
+    background: #2D9CDB;
+  }
+  
+  .long {
+    width: 30px;
+    height: 100px;
+    transform: rotate(45deg);
+    border-radius: 0 0 0 10px;
+    top: 8px;
+    right: 30px;
+  }
+  
+  .short {
+    width: 30px;
+    height: 60px;
+    transform: rotate(-45deg);
+    border-radius: 0 0 5px 0;
+    top: 137px;
+    right: 30px;
+  }
+</style>
