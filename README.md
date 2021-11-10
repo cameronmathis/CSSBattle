@@ -8,6 +8,9 @@ This is a repository to manage my [CSS Battle](https://cssbattle.dev/) solutions
 - [Battle 2](#battle-2)
 - [Battle 3](#battle-3)
 - [Battle 4](#battle-4)
+- [Battle 5](#battle-5)
+- [Battle 6](#battle-6)
+- [Battle 7](#battle-7)
 
 ### Battle 1
 
@@ -100,3 +103,21 @@ This is a repository to manage my [CSS Battle](https://cssbattle.dev/) solutions
 
 - [#28 - Cups & Balls](https://github.com/cameronmathis/CSSBattle/blob/main/Battle4/Cups&Balls.html)
 </br>[<img alt="" src=https://cssbattle.dev/targets/28.png />](https://github.com/cameronmathis/CSSBattle/blob/main/Battle4/Cups&Balls.html)
+
+### Battle 5
+
+- [#29 - Suffocate](https://github.com/cameronmathis/CSSBattle/blob/main/Battle5/Suffocate.html)
+</br>[<img alt="" src=https://cssbattle.dev/targets/29.png />](https://github.com/cameronmathis/CSSBattle/blob/main/Battle5/Suffocate.html)
+
+- [#30 - Horizon](https://github.com/cameronmathis/CSSBattle/blob/main/Battle5/Horizon.html)
+</br>[<img alt="" src=https://cssbattle.dev/targets/30.png />](https://github.com/cameronmathis/CSSBattle/blob/main/Battle5/Horizon.html)
+
+### Battle 6
+
+- [#31 - Equals](https://github.com/cameronmathis/CSSBattle/blob/main/Battle6/Equals.html)
+</br>[<img alt="" src=https://cssbattle.dev/targets/31.png />](https://github.com/cameronmathis/CSSBattle/blob/main/Battle6/Equals.html)
+
+- [#32 - Band-aid](https://github.com/cameronmathis/CSSBattle/blob/main/Battle6/Band-aid.html)
+</br>[<img alt="" src=https://cssbattle.dev/targets/32.png />](https://github.com/cameronmathis/CSSBattle/blob/main/Battle6/Band-aid.html)
+
+### Battle 7
