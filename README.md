@@ -88,3 +88,15 @@ This is a repository to manage my [CSS Battle](https://cssbattle.dev/) solutions
 
 - [#24 - Switches](https://github.com/cameronmathis/CSSBattle/blob/main/Battle4/Switches.html)
 </br>[<img alt="" src=https://cssbattle.dev/targets/24.png />](https://github.com/cameronmathis/CSSBattle/blob/main/Battle4/Switches.html)
+
+- [#25 - Blossom](https://github.com/cameronmathis/CSSBattle/blob/main/Battle4/Blossom.html)
+</br>[<img alt="" src=https://cssbattle.dev/targets/25.png />](https://github.com/cameronmathis/CSSBattle/blob/main/Battle4/Blossom.html)
+
+- [#26 - Smiley](https://github.com/cameronmathis/CSSBattle/blob/main/Battle4/Smiley.html)
+</br>[<img alt="" src=https://cssbattle.dev/targets/26.png />](https://github.com/cameronmathis/CSSBattle/blob/main/Battle4/Smiley.html)
+
+- [#27 - Lock Up](https://github.com/cameronmathis/CSSBattle/blob/main/Battle4/LockUp.html)
+</br>[<img alt="" src=https://cssbattle.dev/targets/27.png />](https://github.com/cameronmathis/CSSBattle/blob/main/Battle4/LockUp.html)
+
+- [#28 - Cups & Balls](https://github.com/cameronmathis/CSSBattle/blob/main/Battle4/Cups&Balls.html)
+</br>[<img alt="" src=https://cssbattle.dev/targets/28.png />](https://github.com/cameronmathis/CSSBattle/blob/main/Battle4/Cups&Balls.html)
