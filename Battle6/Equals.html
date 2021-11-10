@@ -1,0 +1,44 @@
+<div class="container">
+  <div class="circle left"></div>
+  <div class="rectangle"></div>
+  <div class="circle right"></div>
+</div>
+<style>
+  body {
+    background: #aa445f;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .rectangle {
+    background: #aa445f;
+    width: 50px;
+    height: 200px;
+  }
+
+  .circle {
+    width: 100px;
+    height: 200px;
+    border-radius: 100px 0 0 100px;
+    position: relative;
+    z-index: -1;
+  }
+
+  .circle.left {
+    background: #f7ec7d;
+  }
+
+  .circle.right {
+    background: #e38f66;
+    transform: rotate(180deg);
+  }
+</style>

@@ -1,0 +1,50 @@
+<div class="container">
+  <div class="circle NW"></div>
+  <div class="circle NE"></div>
+  <div class="square"></div>
+  <div class="circle SE"></div>
+  <div class="circle SW"></div>
+</div>
+<style>
+  body {
+    background: #f3ac3c;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .square {
+    background: #1a4341;
+    width: 200px;
+    height: 200px;
+  }
+
+  .circle {
+    background: #f3ac3c;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+  }
+
+  .circle.NW {
+    top: -50px;
+    left: 0px;
+  }
+
+  .circle.NE {
+    top: -50px;
+    right: 0px;
+  }
+
+  .circle.SE {
+    bottom: -50px;
+    left: 0px;
+  }
+
+  .circle.SW {
+    bottom: -50px;
+    right: 0px;
+  }
+</style>
