@@ -1,0 +1,65 @@
+<body>
+  <div class="container">
+    <div class="shape">
+      <div class="ball dark"></div>
+      <div class="cup light"></div>
+    </div>
+    <div class="shape flipped">
+      <div class="ball dark"></div>
+      <div class="cup light"></div>
+    </div>
+    <div class="shape flipped">
+      <div class="ball light"></div>
+      <div class="cup dark"></div>
+    </div>
+    <div class="shape">
+      <div class="ball light"></div>
+      <div class="cup dark"></div>
+    </div>
+  </div>
+</body>
+<style>
+  body {
+    background-color: #1a4341;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container {
+    height: 120px;
+    width: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .ball {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    bottom: 10px;
+  }
+
+  .cup {
+    border-radius: 0 0 50% 50%;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 10px;
+  }
+
+  .light {
+    background: #f3ac3c;
+  }
+
+  .dark {
+    background: #998235;
+  }
+
+  .flipped {
+    transform: rotate(180deg);
+  }
+</style>

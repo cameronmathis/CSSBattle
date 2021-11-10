@@ -1,0 +1,79 @@
+<div class="container">
+  <div class="eyes">
+    <div class="eye">
+      <div class="innerEye"></div>
+    </div>
+    <div class="eye">
+      <div class="innerEye"></div>
+    </div>
+  </div>
+  <div class="mouth">
+    <div class="innerMouth"></div>
+  </div>
+</div>
+<style>
+  body {
+    background: #6592cf;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container {
+    width: 320px;
+    height: 220px;
+  }
+
+  .container > * {
+    position: relative;
+  }
+
+  .eyes {
+    width: 320px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .eye {
+    background: #060f55;
+    width: 120px;
+    height: 60px;
+    border-radius: 100px 100px 0 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .innerEye {
+    background: #6592cf;
+    width: 80px;
+    height: 40px;
+    border-radius: 100px 100px 0 0;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .mouth {
+    background: #060f55;
+    width: 120px;
+    height: 60px;
+    border-radius: 100px 100px 0 0;
+    display: flex;
+    justify-content: center;
+    transform: rotate(180deg);
+    position: relative;
+    top: 100px;
+    left: 100px;
+  }
+
+  .innerMouth {
+    background: #6592cf;
+    width: 80px;
+    height: 40px;
+    border-radius: 100px 100px 0 0;
+    position: absolute;
+    bottom: 0;
+  }
+</style>

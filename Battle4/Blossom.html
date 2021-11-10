@@ -1,0 +1,57 @@
+<div class="container">
+  <div class="NW"></div>
+  <div class="NE"></div>
+  <div class="SE"></div>
+  <div class="SW"></div>
+</div>
+<style>
+  body {
+    background: #998235;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container {
+    width: 180px;
+    height: 180px;
+  }
+
+  .container > * {
+    position: relative;
+  }
+
+  .NW {
+    background: #1a4341;
+    width: 80px;
+    height: 100px;
+    border-radius: 0 50px 0 50px;
+  }
+
+  .NE {
+    background: #f3ac3c;
+    width: 80px;
+    height: 60px;
+    bottom: 100px;
+    left: 100px;
+    border-radius: 50px 0 50px 0;
+  }
+
+  .SE {
+    background: #1a4341;
+    width: 80px;
+    height: 100px;
+    bottom: 80px;
+    left: 100px;
+    border-radius: 50px 0 50px 0;
+  }
+
+  .SW {
+    background: #f3ac3c;
+    width: 80px;
+    height: 60px;
+    bottom: 140px;
+    border-radius: 0 50px 0 50px;
+  }
+</style>
